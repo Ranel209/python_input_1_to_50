@@ -7,9 +7,9 @@ number_range = {
 }
 
 #loop for user input
+
 while True:
-    user_input = 0
-    int(input("Give a number ranging from 0-50: "))
+    user_input = int(input("Give a number ranging from 0-50: "))
     
 #add value to variable to count
     if user_input >= 0 and user_input <= 50:
@@ -18,5 +18,5 @@ while True:
 #break loop if input error
     else:
         print("error")
-    break
+        break
 #print input error and value of valurables
