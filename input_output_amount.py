@@ -7,8 +7,10 @@ number_range = {
 }
 
 #loop for user input
-
+while True:
+    user_input = 0
+    int(input("Give a number ranging from 0-50: "))
+    
 #add value to variable to count
 #break loop if input error
-    
 #print input error and value of valurables
