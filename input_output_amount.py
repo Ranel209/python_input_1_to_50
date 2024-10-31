@@ -30,6 +30,7 @@ while True:
             print("+1 count to 41-50")
 #break loop if input error
     else:
-        print("error")
-        break
+        print("Input Input! Will now procede to print range counts:")
 #print input error and value of valurables
+        print(number_range)
+        break
