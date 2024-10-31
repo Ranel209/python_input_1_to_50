@@ -15,6 +15,14 @@ while True:
     if user_input >= 0 and user_input <= 50:
         if 0 <= user_input <= 10:
             number_range["0-10"] += 1
+        if 11 <= user_input <= 20:
+                    number_range["11-20"] += 1
+        if 21 <= user_input <= 30:
+                    number_range["21-30"] += 1
+        if 31 <= user_input <= 40:
+                    number_range["31-40"] += 1
+        if 41 <= user_input <= 50:
+                    number_range["41-50"] += 1
 #break loop if input error
     else:
         print("error")
